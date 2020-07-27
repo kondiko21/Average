@@ -1,0 +1,43 @@
+#listBlock {
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    overflow-y: scroll;
+}
+.gradeElement {
+    background-color: aliceblue;
+    width:380px;
+    height: 65px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.gradeElementSelected {
+    background-color: rgba(172, 255, 47, 0.534);
+    width:380px;
+    height: 65px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.gradeName {
+    color: #64B5F6;
+    font-size: 30px;
+    height:65px;
+    width: 310px;
+    float: left;
+    line-height: 65px;
+    margin-left: 5px;
+}
+
+.gradeValue {
+    width: 55px;
+    height: 55px;
+    float: right;
+    margin: 5px;
+    border-radius: 2px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(76, 209, 55, 0.80);
+}

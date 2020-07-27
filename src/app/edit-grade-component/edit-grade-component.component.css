@@ -1,0 +1,77 @@
+#editBlock {
+    width: 600px;
+    height: 280px;
+    float: left;
+    background-color: aliceblue;
+}
+
+input[type=text]::-moz-placeholder { /* Firefox 19+ */
+    color: #64B5F6;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  } 
+
+input[type=text]{
+    width:571px;
+    height: 40px;
+    margin: 12px;
+    font-size: 30px;
+    text-align: center;
+    color: #64B5F6;
+}
+
+.gradeSelectBox {
+    width: 86px;
+    height: 86px;
+    background-color: rgba(76, 209, 55, 1.0);
+    color: rgb(84, 103, 104);
+    margin: 12px 0px 12px 12px;
+    text-align: center;
+    line-height: 86px;
+    border-radius: 2px;
+    font-size: 40px;
+    float: left;
+}
+.gradeSelectBoxSelected {
+    width: 86px;
+    height: 86px;
+    background-color:  rgba(236, 43, 43, 0.877);
+    color: whitesmoke;
+    margin: 12px 0px 12px 12px;
+    text-align: center;
+    line-height: 86px;
+    border-radius: 2px;
+    font-size: 40px;
+    float: left;
+}
+
+#gradeSelectTitle {
+    margin: 0 auto;
+    color: #64B5F6;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 35px;
+    display: inline-block;
+}
+
+#submitButton {
+    width: 184px;
+    background-color: #64B5F6;
+    border:none;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 208px;
+    margin-right: 208px;
+    -webkit-appearance:none;
+    border-radius: 0px;
+}
+
+input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #64B5F6;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }

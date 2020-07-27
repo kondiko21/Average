@@ -1,0 +1,10 @@
+<div id="editBlock">
+<input id="field" type="text" placeholder="Nazwa przedmiotu" value={{selectedGrade.name}} 
+ #editName (keyup.enter)="editGrade(editName)">
+<span id="gradeSelectTitle">Zmień ocenę</span>
+<div (click)="selectGrade(i)" *ngFor="let grade of grades let i = index"
+[ngClass]= "(grade.isSelected == false)?'gradeSelectBox':'gradeSelectBoxSelected'">
+{{grade.grade}}
+</div>
+<input type="button" id="submitButton" value="Edytuj ocenę" (click)="editGrade(editName)">
+</div>

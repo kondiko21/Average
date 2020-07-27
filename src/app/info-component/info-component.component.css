@@ -1,0 +1,58 @@
+#infoBlock {
+    width: 600px;
+    height: 210px;
+    margin-top: 10px;
+    background-color: white;
+    float: left;
+}
+
+#infoBlockLeft {
+    width: 300px;
+    height: 210px;
+    float: left;
+}
+
+#infoBlockRight {
+    width: 300px;
+    height: 210px;
+    float: right;
+}
+
+.infoText {
+    color: #64B5F6;
+    /* font-family: 'Bangers'; */
+    background-color: aliceblue;
+    font-size: 23px;
+    line-height: 70px;
+    display: block;
+    padding-left: 10px;
+    margin-right: 10px;
+    width:280px;
+    float: left;
+}
+
+.actionButton {
+    width: 300px;
+    border:none;
+    display: block;
+    color: white;
+    font-size: 25px;
+    line-height: 70px;
+    margin: 0px;
+    -webkit-appearance:none;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+
+#deleteButton {
+    background-color: rgba(236, 43, 43, 1);
+}
+
+#resetButton {
+    background-color: #ff602f;
+}
+
+#weightButton {
+    background-color: #64B5F6;
+}

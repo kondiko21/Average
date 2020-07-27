@@ -1,0 +1,12 @@
+<div id="infoBlock">
+    <div id="infoBlockLeft">
+    <span class="infoText">Średnia: {{averageData.averageGrade | number:'1.0-2'}}</span>
+    <span class="infoText">Ilość przedmiotów: {{gradeAmount}}</span>
+    <span class="infoText">Suma ocen: {{gradeTotal}}</span>
+    </div>
+    <div id="infoBlockRight">
+    <input type="button" class="actionButton" id="resetButton" (click)="resetGradeList()" value="Reset">
+    <input type="button" class="actionButton" id="weightButton" (click)="turnAddMode()" value="Dodaj ocenę">
+    <input type="button" class="actionButton" id="deleteButton" (click)="removeGrade()" value="Usuń ocenę">
+    </div>
+</div>

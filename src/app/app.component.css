@@ -1,0 +1,17 @@
+#logo {
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-size: 70px;
+    color: #64B5F6;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#container {
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+

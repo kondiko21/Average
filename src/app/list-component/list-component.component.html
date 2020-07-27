@@ -1,5 +1,6 @@
 <div id="listBlock">
     <div  *ngFor="let grade of gradesToDisplay let i = index" (click)="selectGrade(i)"
+    
     [ngClass]= "(grade.isSelected == false)?'gradeElement':'gradeElementSelected'">
         <div class="gradeName">{{grade.name}}</div>
         <div class="gradeValue">{{grade.value}}</div>
